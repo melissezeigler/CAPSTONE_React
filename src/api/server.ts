@@ -1,3 +1,4 @@
+// This is where the back-end and the front-end connects
 export const server_calls = {
     get: async () => {
         const response = await fetch(`https://capstone-render-cxld.onrender.com/api/trails`,
@@ -17,7 +18,6 @@ export const server_calls = {
         return await response.json()
     },
 
-    // TODO: Finish server calls
     create: async (data: any = {}) => {
         const response = await fetch(`https://capstone-render-cxld.onrender.com/api/trails`,
         {
@@ -69,7 +69,7 @@ export const server_calls = {
         if (!response.ok){
             throw new Error('Failed to delete data on server')
         }
-
+        
         return;
     },
 }

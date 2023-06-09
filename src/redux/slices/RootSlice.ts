@@ -10,7 +10,7 @@ const rootSlice = createSlice ({
     },
     reducers: {
         // action is submitted elsewhere - written to state.name
-        chooseTrail_name: (state, action) => { state.trail_name = action.payload }, //All we're doing is setting the input to the state.name
+        chooseTrail_name: (state, action) => { state.trail_name = action.payload }, 
         chooseNearby_city: (state, action) => { state.nearby_city = action.payload }, 
         chooseTrail_length: (state, action) => { state.trail_length = action.payload }, 
         chooseTrail_condition: (state, action) => { state.trail_condition = action.payload }, 

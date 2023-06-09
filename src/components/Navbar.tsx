@@ -30,7 +30,8 @@ function Navbar() {
   return (
     <nav className='flex items-center justify-between flex-wrap bg-blue-600 p-6'>
         <div className='flex items-center flex-shrink-0 text-white mr-6'>
-            <Link to='/' className='font-semibold text-xl tracking-tight'>Trails</Link>
+            <Link to='/' className='font-bold text-3xl tracking-tight'>trails</Link>
+            <p className='pl-2 pt-3'>by m. zeigs</p>
         </div>
         <div className="block">
             <button 

@@ -1,3 +1,4 @@
+// Third Party API
 function Weather() {
   const getData = async () => {
     var inputCity: HTMLElement|null = document.getElementById("inputCity"); //take info from user text box
